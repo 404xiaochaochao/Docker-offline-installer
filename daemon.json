@@ -1,0 +1,6 @@
+
+{
+  "graph": "/app/software/docker",
+  "storage-driver": "overlay",
+  "live-restore": true,
+}
