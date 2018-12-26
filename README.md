@@ -1,7 +1,7 @@
 # Docker-offline-installer
 A shell script to install docker on Centos-7 host offline and make it a system service 
 
-1. 从官网“https://download.docker.com/mac/static/stable/x86_64/” 中获取到你想到安装的docker版本的离线安装包。
+1. 从官网“https://download.docker.com/mac/static/stable/x86_64/” 中获取到你想到安装的docker版本的离线安装包, 获取后将文件名改为“docker.tgz”。
 
 
 2. 将安装包和其余文件一起放置在Centos 7的某一个目录下。
