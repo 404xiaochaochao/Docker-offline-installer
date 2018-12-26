@@ -11,3 +11,8 @@ A shell script to install docker on Centos-7 host offline and make it a system s
 
 
 4. sudo chmod +x docker_install.sh;  ./docker_install.sh
+
+（docker_install.sh 会自动将docker配置成系统服务，并添加docker用户组，将当前用户加入到docker用户组。 执行docker相关命令时无需带上“sudo”）
+
+
+5. 如需重启docker服务可执行 “sudo sytemctl restart docker”
